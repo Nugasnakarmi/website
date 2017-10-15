@@ -1,0 +1,162 @@
+html, body{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.7;
+    background-color: #eeefe9;
+}
+
+h1, h2, h3, h4{
+    font-family: "Abel", sans-serif;
+}
+
+bold, strong{
+    font-weight: 400;
+}
+
+.navbar-default {
+  background-color: #9a1608;
+  border-color: #c0392b;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #ffbbbc;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffbbbc;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffbbbc;
+  background-color: #c0392b;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #ffbbbc;
+  background-color: #c0392b;
+}
+.navbar-default .navbar-toggle {
+  border-color: #c0392b;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #c0392b;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffbbbc;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffbbbc;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffbbbc;
+    background-color: #c0392b;
+  }
+}
+
+.intro-block{
+    background-color: #4e4747;
+    padding: 75px 15px 60px;
+    color: #fff;
+}
+
+.text-muted{
+    color: #e9e6df;
+    font-weight: 100;
+}
+
+.colored-link{
+    color:crimson;
+    font-size: 15px;
+}
+
+.motto{
+    color:white;
+    font-style: oblique;    
+    font-weight: 400;
+}
+
+.tpad{
+    padding-top: 20px 
+}
+
+.info{
+    padding: 50px 0;
+    background: #44939d url(../images/pagoda.png);
+    background-size:contain;
+    background-blend-mode:soft-light;
+    
+}
+
+.info small{
+    color: #eeefe9;
+}
+
+.info p{
+    color: antiquewhite;
+    font-weight: 300;
+}
+
+.info a{
+    color: white;
+    font-weight: 400;
+}
+
+.info a:hover{
+    color: black;
+}
+
+.ftr{
+    padding: 50px 0 60px 0;
+}
+
+.ft_space{
+    padding: 0 10px;
+}
+
+
+.prog br{
+    line-height: 1.95;
+}
+
+.list-group {
+    list-style: decimal inside;
+}
+
+.list-group-item {
+    display: list-item;
+}
+
+.justify{
+    text-align: justify;
+}
